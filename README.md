@@ -1,7 +1,7 @@
 # TIPE Flywheel Curve Analysis
 
 **Project purpose:**
-This personal project is centered around acquiring, processing, and comparing rotational speed curves from a flywheel setup (volant d'inertie). It combines embedded data acquisition (Arduino), serial communication (Python), and data analysis/plotting to evaluate mechanical energy and behavior.
+This personal project is centered around acquiring, processing, and comparing rotational speed curves from a flywheel setup (volant d'inertie). It combines embedded data acquisition (Arduino), serial communication (Python), and data analysis/plotting to evaluate mechanical energy and behavior. The model used for this project was entirely designed and manufactured by me (model available in 3D_model/, designed on Autodesk Fusion 360) and 3D printed with PLA filament.
 
 ---
 
@@ -26,6 +26,7 @@ This personal project is centered around acquiring, processing, and comparing ro
   - `bin_curves/` – generated plot exports (curve images).
   - `docs/` – documentation notes and supplementary materials.
   - `tipe-courbes/` – additional curve-related files.
+  - `3D_model/` - 3D model in .step format (for maximum compatibility) and in .f3d (origin format, Fusion 360 compatible).
 
 ---
 
@@ -39,6 +40,7 @@ This project demonstrates and helps develop the following skills:
 - Reproducible data structuring with CSV exports
 - Basic GUI interaction (user validation of measurement runs)
 - Embedded firmware development (interrupts + timing in Arduino)
+- 3D printing, 3D modelling, electromagnetic and mechanical physics.
 
 ---
 
@@ -118,8 +120,12 @@ explains the purpose of each folder and the key files you’ll likely work with.
 
 - `raw_datas/` – stored measurement CSV files (raw acquisitions).
 - `bin_curves/` – exported plot images (curve screenshots, etc.).
-- `docs/` – additional documentation notes, diagrams, or analysis artifacts.
+- `docs/` – additional documentation notes, plan of the model, results presentations and bibliography.
 - `tipe-courbes/` – additional curve assets (e.g., scripts or export formats).
+
+### 3D model (`3D_model`)
+
+- Includes two files who contain the 3D model of the modulable KERS system (same model just differents extensions). 
 
 ---
 
